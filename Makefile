@@ -31,7 +31,7 @@ basic-prog: src/demos/basic.bin
 	iceprog $<
 src/demos/basic.bin: src/demos/basic.asc
 src/demos/basic.asc: src/demos/basic.blif
-src/demos/basic.blif: src/demos/basic.v src/tm1638.v src/dec_to_seg.v
+src/demos/basic.blif: src/demos/basic.v src/tm1638.v
 
 # ------ TEST BENCHES ------
 tests: tm1638_tb
