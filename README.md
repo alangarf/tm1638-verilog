@@ -15,4 +15,8 @@ CLK | P1
 DIO | P2
 DTB | R1
 
+Here is an example of the testbench, it is writing 0x40, 0xAA, 0x55 to the TM1638, and reading back 0xAA and 0x55 from the TM1638.
+
+![LED&Keys scanning LEDs](https://github.com/alangarf/tm1638-verilog/raw/master/media/testbench.png)
+
 Enjoy!
